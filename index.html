@@ -9,5 +9,17 @@
     <h5> salam chetory amin
     </h5>
     
+    <script>
+        var el = document.querySelector('h5');
+        var visible = true;
+        setInterval(function() {
+            if (visible) {
+                el.style = 'display: none;';
+            } else {
+                el.style = '';
+        
+            }
+        }, 1000)
+    </script>
     </body>
 </html>
